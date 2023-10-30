@@ -1,0 +1,38 @@
+{
+  "name": "slidy-app",
+  "version": "1.0.0",
+  "description": "An educational project by the Train of Thoughts team at NULP, a website constructor for custom trips.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Train-of-thoughts/slidy-app.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "travels"
+  ],
+  "author": "Train of Thoughts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Train-of-thoughts/slidy-app/issues"
+  },
+  "homepage": "https://github.com/Train-of-thoughts/slidy-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "open": "^9.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.5"
+  }
+}
