@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'Slidy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8F177F01AE4946A59AB69155C6F4B7A7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E0F252388174FB9890E1707A23089B6 }}
           package: .
