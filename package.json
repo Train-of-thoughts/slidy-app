@@ -4,7 +4,6 @@
   "description": "An educational project by the Train of Thoughts team at NULP, a website constructor for custom trips.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
   "repository": {
