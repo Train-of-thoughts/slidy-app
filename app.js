@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const PORT = process.env.PORT || 5555;
+const PORT = process.env.PORT || 5551;
 const app = express();
 
 app.use(express.static(path.join(__dirname, "public")))
