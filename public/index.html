@@ -4,12 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slidy - Залиш свій слід у світі подорожей</title>
-    <link rel="stylesheet" href="./styles/coreStyles/style.css">
+    <link rel="stylesheet" href="./styles/connection/style.css">
 </head>
 <body>
-    <div class="wrap">
-        <h1 class="test-headline">Slidy</h1>
-        <p class="test-paragraph">Залиш свій слід у світі подорожей</p>
-    </div>
+
+
+
+    <article class=contacts>
+        <p>
+            support@slidy.app
+            <img src="images/mailvec.png" id="mailvec">
+        </p>
+        <p>
+            0800 000 000
+            <img src="images/phonevec.png" id="phonevec">
+        </p>
+        <p>
+            м. Львів, вул. Степана Бандери 28а
+            <img src="images/tagvec.png" id="tagvec">
+        </p>
+
+    </article>
+
+    <article class=conection>
+        <h1>Зворотній зв’язок</h1>
+
+        <form method=post action=process.php>
+            <p>
+                <input type=text id="name" name=name placeholder="Ваше ім`я...">
+            </p>
+
+            <p>
+                <input type=text id="email" name=email placeholder="Ваш email...">
+            </p>
+
+            <p>
+                <textarea name="problem" id="problem"  placeholder="Ваша проблема..." cols="55" rows="10" draggable="false">
+                </textarea>
+            </p>
+
+            <p>
+                <input id="send" type="submit" name="send" value="надіслати">
+                <img src="images/planevec.png" id="plane">
+            </p>
+        </form>
+
+        <article class="platform">
+            <img src="images/steps.svg" id="steps">
+        </article>
+
+        <article class="platform2">
+            <img src="images/steps2.svg" id="steps">
+        </article>
+
+        <article class="platform3">
+            <img src="images/footstep.svg" id="step">
+        </article>
+
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
