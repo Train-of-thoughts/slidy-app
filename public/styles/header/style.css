@@ -1,0 +1,73 @@
+@import "../_reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+.header {
+  padding: 25px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.nav .nav__navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(12px + 0.3vw);
+  gap: 20px;
+}
+.nav .nav__navigation a {
+  text-decoration: none;
+  color: #171717;
+  transition: 0.3s ease;
+  position: relative;
+}
+.nav .nav__navigation a::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fe5811;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transition: 0.3s ease;
+}
+.nav .nav__navigation a:hover::before {
+  width: 100%;
+}
+.nav .nav__logo img {
+  transition: 0.3s ease;
+}
+.nav .nav__my-travels {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 40px;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #fe5811;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.nav .nav__my-travels:hover {
+  transform: scale(1.03);
+  color: #fe5811;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(254, 88, 17, 0.2509803922);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+
+/*# sourceMappingURL=style.css.map */
