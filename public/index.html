@@ -7,73 +7,67 @@
     <link rel="stylesheet" href="./styles/connection/style.css">
 </head>
 <body>
+    <div class="wrep">
 
+      <section class="connection">
 
+        <article class=contacts>
 
-    <article class=contacts>
-        <p>
-            support@slidy.app
-            <img src="images/mailvec.png" id="mailvec">
-        </p>
-        <p>
-            0800 000 000
-            <img src="images/phonevec.png" id="phonevec">
-        </p>
-        <p>
-            м. Львів, вул. Степана Бандери 28а
-            <img src="images/tagvec.png" id="tagvec">
-        </p>
+            <div class="text-area">
+              <p class="contacts-paragraf">
+                 support@slidy.app
+                 <img src="images/mailvec.svg" class="mailvec">
+              </p>
+              
+              <p class="contacts-paragraf">              
+                 0800 000 000
+                 <img src="images/phonevec.svg" class="phonevec">
+                
+              </p>
 
-    </article>
+              <p class="contacts-paragraf">
+                 м. Львів, вул. Степана Бандери 28а
+                 <img src="images/tagvec.svg" class="tagvec">
+                  
+              </p>
 
-    <article class=conection>
-        <h1>Зворотній зв’язок</h1>
+            </div>
 
-        <form method=post action=process.php>
-            <p>
-                <input type=text id="name" name=name placeholder="Ваше ім`я...">
-            </p>
+         </article>
 
-            <p>
-                <input type=text id="email" name=email placeholder="Ваш email...">
-            </p>
+        <article class=conection>
 
-            <p>
-                <textarea name="problem" id="problem"  placeholder="Ваша проблема..." cols="55" rows="10" draggable="false">
-                </textarea>
-            </p>
+            <h1 class="header1-conection">Зворотній зв’язок</h1>
 
-            <p>
-                <input id="send" type="submit" name="send" value="надіслати">
-                <img src="images/planevec.png" id="plane">
-            </p>
-        </form>
+            <form method=post>
 
-        <article class="platform">
-            <img src="images/steps.svg" id="steps">
+                <div class="form-area">
+                    <input type=text class="name" name=name placeholder="Ваше ім`я...">
+                </div>
+
+                <div class="form-area">
+                    <input type=text class="email" name=email placeholder="Ваш email...">
+                </div>
+
+                <div class="form-area">
+                    <textarea name="problem" class="problem"  placeholder="Ваша проблема..." cols="55" rows="10" draggable="false">
+                    </textarea>
+                </div>
+
+                <div class="send-paragraf">
+
+                    <input id="send" type="submit" class="send" value="надіслати">
+                    <img src="images/planevec.png" class="plane">
+
+                </div>
+
+            </form>
+
         </article>
 
-        <article class="platform2">
-            <img src="images/steps2.svg" id="steps">
-        </article>
+      </section>
 
-        <article class="platform3">
-            <img src="images/footstep.svg" id="step">
-        </article>
-
-    </article>
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 
 </body>
 </html>
