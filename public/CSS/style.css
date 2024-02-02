@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+.wrap {
+    background-color: #ffffff;
+}
+
+.home-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.slidy-text {
+    color: #fe5811;
+    font-family: "Krona One";
+    font-size: 96px;
+    font-weight: normal;
+}
+.text-under-slidy {
+    color:#171717;
+    font-family: "montserrat";
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 1%;
+}
+.slidy-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:12% 25%;
+    min-height: auto;
+}
+
+.button {
+    color: #ffffff;
+    margin-top: 10%;
+    padding: 20px 90px;
+    font-family: "montserrat";
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #fe5811;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+    box-shadow: 0px 2px 4px #171717;
+}
+
+.scroll-container {
+    border: 2px solid #fe5811;
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 45px;
+    width: 25px;
+    display: grid;
+    place-items: end;
+    padding: 2px;
+    margin-left: 0%;
+}
+
+.scroll {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fe5811;
+    display: grid;
+    align-items: center;
+}
+
+.more-info-container {
+    padding: 30px 50px;
+    place-items: center;
+    display: grid;
+    flex-direction:column ; 
+}
+
+.more-info-text {
+    margin-top: 1%;
+    size: 14px;
+    font-family: "montserrat";
+    display: grid;
+    place-items: center;
+}
