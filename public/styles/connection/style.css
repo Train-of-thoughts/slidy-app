@@ -6,7 +6,7 @@
   background: #FE5811;
   background-image: url(../../images/steps.svg);
   background-repeat: no-repeat;
-  background-position-y: 330px;
+  background-position-y: 250px;
   background-position-x: -15px;
 }
 .wrap .connection .contacts_block {
@@ -26,7 +26,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 25px;
-  margin: 0 0 0 25px;
+  margin: 10px 0 0 25px;
 }
 .wrap .connection .contacts_block .contacts-area .contacts-paragraph {
   color: #171717;
@@ -72,7 +72,6 @@
   float: right;
   text-align: center;
   margin: 30px 35px 0 0;
-  padding-bottom: 25px;
 }
 .wrap .connection .connection_block .connection-header1 {
   color: #FE5811;
@@ -82,6 +81,7 @@
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
+  margin: 40px 0 20px 0;
 }
 .wrap .connection .connection_block .connection-form-area input {
   width: 587px;
