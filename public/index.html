@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slidy - Залиш свій слід у світі подорожей</title>
     <link rel="stylesheet" href="./styles/header/style.css">
+    <link rel="stylesheet" href="./styles/connection/style.css">
     <link rel="stylesheet" href="./styles/coreStyles/style.css">
     <link rel="stylesheet" href="./styles/homePage/style.css">
 </head>
+
 <body>
     <div class="wrap">
         <header class="header">
             <nav class="nav">
-                <a href="#"><div class="nav__logo"><img src="images/logo.svg" alt="Slidy"></div></a>
+                <a href="#">
+                    <div class="nav__logo"><img src="images/logo.svg" alt="Slidy"></div>
+                </a>
                 <ul class="nav__navigation">
                     <li class="nav__main-page"><a href="#">Головна</a></li>
                     <li class="nav__about-us"><a href="#">Про нас</a></li>
@@ -40,6 +45,57 @@
                 <div class="more-info-text">Більше інформації тут</div>
             </div>
         </div>
+
+        <section class="connection">
+
+            <article class="contacts_block">
+                <div class="contacts-area">
+                    <p class="contacts-paragraph">
+                        support@slidy.app
+                        <img src="images/mailvec.svg" class="contacts-mail-vec">
+                    </p>
+
+                    <p class="contacts-paragraph">
+                        0800 000 000
+                        <img src="images/phonevec.svg" class="contacts-phone-vec">
+                    </p>
+
+                    <p class="contacts-paragraph">
+                        м. Львів, вул. Степана Бандери 28а
+                        <img src="images/tagvec.svg" class="contacts-tag-vec">
+                    </p>
+                </div>
+            </article>
+
+            <article class="connection_block">
+                <h1 class="connection-header1">Зворотній зв’язок</h1>
+                <form>
+                    <div class="connection-form-area">
+                        <input type=text class="connection-input-name" name=name placeholder="Ваше ім`я...">
+                    </div>
+
+                    <div class="connection-form-area">
+                        <input type=text class="connection-input-email" name=email placeholder="Ваш email...">
+                    </div>
+
+                    <div class="connection-form-area">
+                        <textarea name="problem" class="connection-input-problem" placeholder="Ваша проблема..."
+                            cols="55" rows="10" draggable="false">
+                        </textarea>
+                    </div>
+
+                    <div class="connection-send-paragraph">
+                        <input id="send" type="submit" class="connection-button" value="надіслати">
+                        <img src="images/planevec.png" class="connection-plane-img">
+                    </div>
+                </form>
+
+            </article>
+
+        </section>
+
     </div>
+
 </body>
+
 </html>
