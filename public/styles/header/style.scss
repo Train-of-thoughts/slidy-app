@@ -9,83 +9,88 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     top: 0;
     left: 0;
-    right: 0
-}
+    right: 0;
+    z-index: 50;
 
-.nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-
-    .nav__navigation {
-        list-style: none;
+    .nav {
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: calc(12px + .3vw);
-        gap: 20px;
+        justify-content: space-between;
+        gap: 15px;
 
-        a {
-            text-decoration: none;
-            color: #171717;
-            transition: 0.3s ease;
-            position: relative;
+        .nav__navigation {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: calc(12px + .3vw);
+            gap: 20px;
 
-            &::before {
-                content: "";
-                display: block;
-                height: 3px;
-                width: 0;
-                background: #fe5811;
-                position: absolute;
-                bottom: -10px;
-                left: 0;
+            a {
+                text-decoration: none;
+                color: #171717;
                 transition: 0.3s ease;
-}
+                position: relative;
+                cursor: pointer;
 
-            &:hover {
                 &::before {
-                    width: 100%;
+                    content: "";
+                    display: block;
+                    height: 3px;
+                    width: 0;
+                    background: #fe5811;
+                    position: absolute;
+                    bottom: -10px;
+                    left: 0;
+                    transition: 0.3s ease;
+                }
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                    }
                 }
             }
         }
-    }
 
-    .nav__logo {
+        .nav__logo {
 
-        img {
+            img {
+                transition: 0.3s ease;
+            }
+        }
+
+        .nav__my-travels {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            color: #ffffff;
+            padding: 10px 40px;
+            justify-content: center;
+            border: none;
+            border-radius: 5px;
+            background-color: #fe5811;
             transition: 0.3s ease;
+            cursor: pointer;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+
+            &:hover {
+                transform: scale(1.03);
+                color: #fe5811;
+                background-color: #ffffff;
+                box-shadow: 0 0 15px #fe581140;
+                -webkit-transform: scale(1.03);
+                -moz-transform: scale(1.03);
+                -ms-transform: scale(1.03);
+                -o-transform: scale(1.03);
+            }
         }
     }
-
-    .nav__my-travels {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        color: #ffffff;
-        padding: 10px 40px;
-        justify-content: center;
-        border: none;
-        border-radius: 10px;
-        background-color: #fe5811;
-        transition: 0.3s ease;
-        cursor: pointer;
-
-        &:hover {
-            transform: scale(1.03);
-            color: #fe5811;
-            background-color: #ffffff;
-            box-shadow: 0 0 15px #fe581140;
-            -webkit-transform: scale(1.03);
-            -moz-transform: scale(1.03);
-            -ms-transform: scale(1.03);
-            -o-transform: scale(1.03);
-        }
-    }
-
 }
