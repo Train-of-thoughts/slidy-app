@@ -1,27 +1,131 @@
 @import "../_reset.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$font-montserrat: 'Montserrat', sans-serif;
+$font-montserrat-alt: 'Montserrat Alternates', sans-serif;
+$footer-bg-color: #fff7f3;
+$nav-font-size: 16px;
+$nav-title-font-size: 32px;
+$nav-list-margin: 15px;
+$social-title-font-size: 32px;
+$social-item-margin: 25px;
+$contacts-item-margin: 25px;
+$container-padding: 50px 150px;
+$button-color: black; 
+
+// Footer styles
 .wrap {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    gap: 15px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: $footer-bg-color;
+    padding: $container-padding;
+    font-family: $font-montserrat; // Set font family for the whole footer
+    font-weight: 500;
+    font-style: normal;
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      
+      .left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+      }
+      
+      .right-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+      
+      .nav,
+      .social,
+      .contacts {
+        width: auto;
+      }
 
-    .test-headline {
-        font-size: calc(24px + .5vw);
-        font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-transform: uppercase;
-        color: #333333;
-        font-weight: 900;
+    .nav {
+      width: auto;
+      margin-bottom: 25px;
+      .nav-logo {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+      }
+      .nav-title {
+        font-size: $nav-title-font-size;
+        margin: 25px 0;
+        font-family: $font-montserrat-alt; 
+      }
+      .nav-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        li:last-child {
+            margin-right: 0;
+        }
+        li {
+          display: inline-block;
+          margin-right: $nav-list-margin;
+          margin-bottom: 15px;
+          a {
+            font-size: $nav-font-size;
+            text-decoration: none;
+            color: $button-color; 
+            &:hover {
+              text-decoration: none; 
+            }
+            &:active {
+              color: $button-color; 
+            }
+          }
+        }
+      }
     }
-
-    .test-paragraph {
-        font-size: calc(12px + .25vw);
-        font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-transform: uppercase;
-        color: #141414;
-        font-weight: 900;
+    
+    .social {
+      width: auto;
+      .social-title {
+        font-size: $social-title-font-size;
+        margin-bottom: $social-item-margin;
+        font-family: $font-montserrat-alt;
+      }
+      .social-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: $social-item-margin;
+        .social-icon {
+          width: 25px;
+          height: 25px;
+          background-color: transparent;
+          margin-right: 10px;
+        }
+        span {
+          font-size: $nav-font-size;
+        }
+      }
     }
+    
+    .contacts {
+      width: 520px;
+      .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: $contacts-item-margin;
+        .contact-icon {
+          width: 25px;
+          height: 25px;
+          background-color: transparent;
+          margin-right: 10px;
+        }
+        span {
+          font-size: $nav-font-size;
+        }
+      }
+    }
+  }
 }
