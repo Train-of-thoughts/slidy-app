@@ -7,3 +7,67 @@
   gap: 25px;
   padding: 25px 150px;
 }
+.about * {
+  font-family: "Montserrat", sans-serif;
+}
+.about .about__headline {
+  width: 100%;
+  text-align: center;
+  line-height: 120%;
+  font-size: calc(20px + 0.8vw);
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fe5811;
+  font-family: "Montserrat Alternates";
+}
+.about .about__description-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.about .about__description-block .about__description-paragraph {
+  font-size: min(12px + 0.5vw, 18px);
+  color: #171717;
+}
+.about .about__slider-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .about__slider-wrapper .about__slider {
+  height: 450px;
+  width: 100%;
+  overflow: visible;
+}
+.about .about__slider-wrapper .about__slider .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.about .about__slider-wrapper .about__slider .swiper-wrapper .swiper-slide {
+  width: 350px;
+  background: green;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(20, 20, 20, 0.3137254902);
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    padding: 25px;
+  }
+  .about .about__slider-wrapper .about__slider {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about {
+    padding: 25px;
+  }
+  .about .about__slider-wrapper .about__slider {
+    height: 300px;
+  }
+}
