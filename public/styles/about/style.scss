@@ -159,8 +159,26 @@
         padding: 25px;
 
         .about__slider-wrapper {
+            padding: 0;
+            height: auto;
+
             .about__slider {
-                height: 350px;
+                height: 100%;
+
+                .swiper-slide {
+                    width: auto;
+                    height: 100%;
+
+                    .about__slider-image {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+
+                .swiper-slide-active {
+                    width: auto;
+                    height: 100%;
+                }
             }
         }
     }
