@@ -1,13 +1,23 @@
 const swiper = new Swiper('.about__slider', {
   speed: 400,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  centeredSlides: true,
+  longSwipes: false,
   breakpoints: {
-    360: { // >= then width
+    0: { // >= then width
       slidesPerView: 1,
-      spaceBetween: 25
+      spaceBetween: 40
+    },
+    360: {
+      slidesPerView: 1.5,
+      spaceBetween: 40
     },
     800: {
       slidesPerView: 2,
-      spaceBetween: 30
+      spaceBetween: 40
     },
     1200: {
       slidesPerView: 3,
