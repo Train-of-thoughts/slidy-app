@@ -26,12 +26,12 @@
     "express": "^4.18.2",
     "open": "^9.1.0"
   },
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "gulp-webp": "^4.0.1",
     "node-sass": "^9.0.0",
-    "sass": "^1.69.5"
+    "sass": "^1.70.0"
   }
 }
