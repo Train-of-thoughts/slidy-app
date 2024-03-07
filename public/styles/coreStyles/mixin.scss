@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+@mixin flex ($align-items, $justify-content, $flex-direction, $flex-wrap:wrap) {
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    flex-wrap: $flex-wrap;
+}
+
+@mixin avatarStyle ($size) {
+    height: $size;
+    width: $size;
+    object-fit: cover;
+    object-position: center center;
+    pointer-events: none;
+    user-select: none;
+    box-shadow: 1px 2px 4px $shadows-black;
+}
+

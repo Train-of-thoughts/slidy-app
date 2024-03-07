@@ -1,0 +1,112 @@
+// * Text styles 
+
+%headline-1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(30px + 3vw);
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+%headline-2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20px + .8vw);
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+%headline-3 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + .5vw);
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+%headline-4 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(12px + .5vw);
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+%headline-5 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(10px + .5vw);
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+%headline-6 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(10px + .3vw);
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+%plain-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(10px + .3vw);
+    line-height: 120%;
+}
+
+%small-text-semi-visible {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(5px + .3vw);
+    line-height: 120%;
+    opacity: 0.5;
+}
+
+%bold-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(10px + .3vw);
+    line-height: 120%;
+}
+
+%bigger-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(12px + .5vw);
+    line-height: 120%;
+}
+
+%big-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(10px + .3vw);
+    line-height: 120%;
+}
+
+%bigger-text-bold {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(12px + .5vw);
+    line-height: 120%;
+}
+
+%big-text-bold {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(10px + .3vw);
+    line-height: 120%;
+}
