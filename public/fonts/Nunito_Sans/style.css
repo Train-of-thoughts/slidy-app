@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    src: url("./normal.ttf");
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    font-style: italic;
+    src: url("./italic.ttf");
+}
