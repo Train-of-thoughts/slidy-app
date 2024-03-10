@@ -26,7 +26,7 @@ $button-color: black;
       display: flex;
       justify-content: space-between;
       
-      .left-section {
+      .block-left-section {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -34,33 +34,33 @@ $button-color: black;
         
       }
       
-      .right-section {
+      .block-right-section {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
       }
       
-      .nav,
-      .social,
-      .contacts {
+      .block-nav,
+      .block-social,
+      .bloack-contacts {
         width: auto;
       }
 
-    .nav {
+    .block-nav {
       width: auto;
       margin-bottom: 25px;
-      .nav-logo {
+      .block-nav__logo {
         width: 100px;
         height: 100px;
         background-color: transparent;
       }
-      .nav-title {
+      .block-nav__title {
         font-size: $nav-title-font-size;
         margin: 25px 0;
         font-family: $font-montserrat-alt; 
       }
-      .nav-list {
+      .block-nav__list {
         list-style: none;
         padding: 0;
         display: flex;
@@ -87,18 +87,18 @@ $button-color: black;
       }
     }
     
-    .social {
+    .block-social {
       width: auto;
-      .social-title {
+      .block-social__title {
         font-size: $social-title-font-size;
         margin-bottom: $social-item-margin;
         font-family: $font-montserrat-alt;
       }
-      .social-item {
+      .block-social__item {
         display: flex;
         align-items: center;
         margin-bottom: $social-item-margin;
-        .social-icon {
+        .block-social__icon {
           width: 25px;
           height: 25px;
           background-color: transparent;
@@ -110,13 +110,13 @@ $button-color: black;
       }
     }
     
-    .contacts {
+    .block-contacts {
       width: 520px;
-      .contact-item {
+      .block-contact__item {
         display: flex;
         align-items: center;
         margin-bottom: $contacts-item-margin;
-        .contact-icon {
+        .block-contact__icon {
           width: 25px;
           height: 25px;
           background-color: transparent;

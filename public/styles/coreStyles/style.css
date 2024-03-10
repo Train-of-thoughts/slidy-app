@@ -12,99 +12,99 @@
   display: flex;
   justify-content: space-between;
 }
-.wrap .container .left-section {
+.wrap .container .block-left-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.wrap .container .right-section {
+.wrap .container .block-right-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
 }
-.wrap .container .nav,
-.wrap .container .social,
-.wrap .container .contacts {
+.wrap .container .block-nav,
+.wrap .container .block-social,
+.wrap .container .bloack-contacts {
   width: auto;
 }
-.wrap .container .nav {
+.wrap .container .block-nav {
   width: auto;
   margin-bottom: 25px;
 }
-.wrap .container .nav .nav-logo {
+.wrap .container .block-nav .block-nav__logo {
   width: 100px;
   height: 100px;
   background-color: transparent;
 }
-.wrap .container .nav .nav-title {
+.wrap .container .block-nav .block-nav__title {
   font-size: 32px;
   margin: 25px 0;
   font-family: "Montserrat Alternates", sans-serif;
 }
-.wrap .container .nav .nav-list {
+.wrap .container .block-nav .block-nav__list {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
-.wrap .container .nav .nav-list li:last-child {
+.wrap .container .block-nav .block-nav__list li:last-child {
   margin-right: 0;
 }
-.wrap .container .nav .nav-list li {
+.wrap .container .block-nav .block-nav__list li {
   display: inline-block;
   margin-right: 15px;
   margin-bottom: 15px;
 }
-.wrap .container .nav .nav-list li a {
+.wrap .container .block-nav .block-nav__list li a {
   font-size: 16px;
   text-decoration: none;
   color: black;
 }
-.wrap .container .nav .nav-list li a:hover {
+.wrap .container .block-nav .block-nav__list li a:hover {
   text-decoration: none;
 }
-.wrap .container .nav .nav-list li a:active {
+.wrap .container .block-nav .block-nav__list li a:active {
   color: black;
 }
-.wrap .container .social {
+.wrap .container .block-social {
   width: auto;
 }
-.wrap .container .social .social-title {
+.wrap .container .block-social .block-social__title {
   font-size: 32px;
   margin-bottom: 25px;
   font-family: "Montserrat Alternates", sans-serif;
 }
-.wrap .container .social .social-item {
+.wrap .container .block-social .block-social__item {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
-.wrap .container .social .social-item .social-icon {
+.wrap .container .block-social .block-social__item .block-social__icon {
   width: 25px;
   height: 25px;
   background-color: transparent;
   margin-right: 10px;
 }
-.wrap .container .social .social-item span {
+.wrap .container .block-social .block-social__item span {
   font-size: 16px;
 }
-.wrap .container .contacts {
+.wrap .container .block-contacts {
   width: 520px;
 }
-.wrap .container .contacts .contact-item {
+.wrap .container .block-contacts .block-contact__item {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
-.wrap .container .contacts .contact-item .contact-icon {
+.wrap .container .block-contacts .block-contact__item .block-contact__icon {
   width: 25px;
   height: 25px;
   background-color: transparent;
   margin-right: 10px;
 }
-.wrap .container .contacts .contact-item span {
+.wrap .container .block-contacts .block-contact__item span {
   font-size: 16px;
 }
 
