@@ -93,10 +93,14 @@
 .about .about__slider-wrapper .about__slider .swiper-wrapper .swiper-slide .about__slider-image {
   width: 100%;
   height: calc(100% - 75px);
-  object-fit: contain;
-  object-position: center 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center 0;
+     object-position: center 0;
   opacity: 0.8;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .about .about__slider-wrapper .about__slider .swiper-wrapper .swiper-slide-active {
   transform: scale(1.1);
@@ -151,4 +155,4 @@
     width: auto;
     height: 100%;
   }
-}
+}/*# sourceMappingURL=style.css.map */
