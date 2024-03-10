@@ -131,3 +131,17 @@
   animation-delay: 5s;
   animation-iteration-count: infinite;
 }
+.home-page .more-info-container .scroll-container .scroll img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  object-position: center center;
+}
+.home-page .more-info-container .more-info-text {
+  size: 14px;
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
