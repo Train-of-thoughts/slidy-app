@@ -7,104 +7,102 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
-}
-.wrap .container {
   display: flex;
   justify-content: space-between;
 }
-.wrap .container .block-left-section {
+.wrap .block-left-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.wrap .container .block-right-section {
+.wrap .block-right-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
 }
-.wrap .container .block-nav,
-.wrap .container .block-social,
-.wrap .container .bloack-contacts {
+.wrap .block-nav,
+.wrap .block-social,
+.wrap .bloack-contacts {
   width: auto;
 }
-.wrap .container .block-nav {
+.wrap .block-nav {
   width: auto;
   margin-bottom: 25px;
 }
-.wrap .container .block-nav .block-nav__logo {
+.wrap .block-nav .block-nav__logo {
   width: 100px;
   height: 100px;
   background-color: transparent;
 }
-.wrap .container .block-nav .block-nav__title {
+.wrap .block-nav .block-nav__title {
   font-size: 32px;
   margin: 25px 0;
   font-family: "Montserrat Alternates", sans-serif;
 }
-.wrap .container .block-nav .block-nav__list {
+.wrap .block-nav .block-nav__list {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
-.wrap .container .block-nav .block-nav__list li:last-child {
+.wrap .block-nav .block-nav__list li:last-child {
   margin-right: 0;
 }
-.wrap .container .block-nav .block-nav__list li {
+.wrap .block-nav .block-nav__list li {
   display: inline-block;
   margin-right: 15px;
   margin-bottom: 15px;
 }
-.wrap .container .block-nav .block-nav__list li a {
+.wrap .block-nav .block-nav__list li a {
   font-size: 16px;
   text-decoration: none;
   color: black;
 }
-.wrap .container .block-nav .block-nav__list li a:hover {
+.wrap .block-nav .block-nav__list li a:hover {
   text-decoration: none;
 }
-.wrap .container .block-nav .block-nav__list li a:active {
+.wrap .block-nav .block-nav__list li a:active {
   color: black;
 }
-.wrap .container .block-social {
+.wrap .block-social {
   width: auto;
 }
-.wrap .container .block-social .block-social__title {
+.wrap .block-social .block-social__title {
   font-size: 32px;
   margin-bottom: 25px;
   font-family: "Montserrat Alternates", sans-serif;
 }
-.wrap .container .block-social .block-social__item {
+.wrap .block-social .block-social__item {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
-.wrap .container .block-social .block-social__item .block-social__icon {
+.wrap .block-social .block-social__item .block-social__icon {
   width: 25px;
   height: 25px;
   background-color: transparent;
   margin-right: 10px;
 }
-.wrap .container .block-social .block-social__item span {
+.wrap .block-social .block-social__item span {
   font-size: 16px;
 }
-.wrap .container .block-contacts {
+.wrap .block-contacts {
   width: 520px;
 }
-.wrap .container .block-contacts .block-contact__item {
+.wrap .block-contacts .block-contact__item {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
-.wrap .container .block-contacts .block-contact__item .block-contact__icon {
+.wrap .block-contacts .block-contact__item .block-contact__icon {
   width: 25px;
   height: 25px;
   background-color: transparent;
   margin-right: 10px;
 }
-.wrap .container .block-contacts .block-contact__item span {
+.wrap .block-contacts .block-contact__item span {
   font-size: 16px;
 }
 
