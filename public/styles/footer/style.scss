@@ -4,16 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 // Footer styles
-.wrap {
+
+.footer {
     background-color: $footer-bg-color;
     padding: $container-padding;
     font-family: $font-montserrat; 
     font-weight: 500;
     font-style: normal;
     display: flex;
+    width: 100%;
     justify-content: space-between;
 
-    .block-left-section {
+    .footer-left-section {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -21,33 +23,33 @@
         
       }
       
-    .block-right-section {
+    .footer-right-section {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
       }
       
-    .block-nav,
-    .block-social,
-    .bloack-contacts {
+    .footer-nav,
+    .footer-social,
+    .footer-contacts {
         width: auto;
       }
 
-  .block-nav {
+  .footer-nav {
       width: auto;
       margin-bottom: 25px;
-    .block-nav__logo {
+    .footer-nav__logo {
         width: 100px;
         height: 100px;
         background-color: transparent;
       }
-    .block-nav__title {
+    .footer-nav__title {
         font-size: $nav-title-font-size;
         margin: 25px 0;
         font-family: $font-montserrat-alt; 
       }
-    .block-nav__list {
+    .footer-nav__list {
         list-style: none;
         padding: 0;
         display: flex;
@@ -74,18 +76,18 @@
       }
     }
     
-  .block-social {
+  .footer-social {
       width: auto;
-    .block-social__title {
+    .footer-social__title {
         font-size: $social-title-font-size;
         margin-bottom: $social-item-margin;
         font-family: $font-montserrat-alt;
       }
-    .block-social__item {
+    .footer-social__item {
         display: flex;
         align-items: center;
         margin-bottom: $social-item-margin;
-      .block-social__icon {
+      .footer-social__icon {
           width: 25px;
           height: 25px;
           background-color: transparent;
@@ -97,13 +99,13 @@
       }
     }
     
-  .block-contacts {
+  .footer-contacts {
       width: 520px;
-    .block-contact__item {
+    .footer-contact__item {
         display: flex;
         align-items: center;
         margin-bottom: $contacts-item-margin;
-      .block-contact__icon {
+      .footer-contact__icon {
           width: 25px;
           height: 25px;
           background-color: transparent;
