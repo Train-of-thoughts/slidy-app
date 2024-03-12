@@ -1,0 +1,82 @@
+@import "../_reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+.header {
+  padding: 25px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+.header .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.header .nav .nav__navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(12px + 0.3vw);
+  gap: 20px;
+}
+.header .nav .nav__navigation a {
+  text-decoration: none;
+  color: #171717;
+  transition: 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+.header .nav .nav__navigation a::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fe5811;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transition: 0.3s ease;
+}
+.header .nav .nav__navigation a:hover::before {
+  width: 100%;
+}
+.header .nav .nav__logo img {
+  transition: 0.3s ease;
+}
+.header .nav .nav__my-travels {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 40px;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fe5811;
+  transition: 0.3s ease;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.header .nav .nav__my-travels:hover {
+  transform: scale(1.03);
+  color: #fe5811;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(254, 88, 17, 0.2509803922);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}/*# sourceMappingURL=style.css.map */
