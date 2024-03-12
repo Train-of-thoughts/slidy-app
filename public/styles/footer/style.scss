@@ -1,0 +1,120 @@
+@import "../_reset.css";
+@import "../footer/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Footer styles
+
+.footer {
+    background-color: $footer-bg-color;
+    padding: $container-padding;
+    font-family: $font-montserrat; 
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .footer-left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+      }
+      
+    .footer-right-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+      
+    .footer-nav,
+    .footer-social,
+    .footer-contacts {
+        width: auto;
+      }
+
+  .footer-nav {
+      width: auto;
+      margin-bottom: 25px;
+    .footer-nav__logo {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+      }
+    .footer-nav__title {
+        font-size: $nav-title-font-size;
+        margin: 25px 0;
+        font-family: $font-montserrat-alt; 
+      }
+    .footer-nav__list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      li:last-child {
+            margin-right: 0;
+        }
+      li {
+          display: inline-block;
+          margin-right: $nav-list-margin;
+          margin-bottom: 15px;
+        a {
+            font-size: $nav-font-size;
+            text-decoration: none;
+            color: $button-color; 
+          &:hover {
+              text-decoration: none; 
+            }
+          &:active {
+              color: $button-color; 
+            }
+          }
+        }
+      }
+    }
+    
+  .footer-social {
+      width: auto;
+    .footer-social__title {
+        font-size: $social-title-font-size;
+        margin-bottom: $social-item-margin;
+        font-family: $font-montserrat-alt;
+      }
+    .footer-social__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: $social-item-margin;
+      .footer-social__icon {
+          width: 25px;
+          height: 25px;
+          background-color: transparent;
+          margin-right: 10px;
+        }
+      span {
+          font-size: $nav-font-size;
+        }
+      }
+    }
+    
+  .footer-contacts {
+      width: 520px;
+    .footer-contact__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: $contacts-item-margin;
+      .footer-contact__icon {
+          width: 25px;
+          height: 25px;
+          background-color: transparent;
+          margin-right: 10px;
+        }
+      span {
+          font-size: $nav-font-size;
+        }
+      }
+    }
+  }
+
